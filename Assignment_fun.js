@@ -1,15 +1,11 @@
 // FUNCTIONS
     
-function numbers(Even, Odd) {
-
-    let EvenNumber = Even % 2 === 0;
-    let oddNumber = Odd % 2 !== 0;
-
-    if (EvenNumber && oddNumber) {
-        return Even + " is an even number and " + Odd + " is an odd number";
+function numbers(num) {
+    if(num % 2 === 0){
+        return ` ${num } is an even number`
+    }else{
+        return ` ${num } is an 0dd numbeer`
     }
-}
+}let 
 
-let result = numbers(2, 5);
-
-console.log(result);
+     
